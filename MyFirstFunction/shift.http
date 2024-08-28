@@ -1,0 +1,14 @@
+# For more info on HTTP files go to https://aka.ms/vs/httpfile
+
+@baseUrl = http://localhost:7207
+
+GET {{baseUrl}}/api/shift
+
+###
+
+POST {{baseUrl}}/api/shift
+Content-Type: application/json
+{
+  "id": "115",
+  "person": "Added person from azure function"
+}
